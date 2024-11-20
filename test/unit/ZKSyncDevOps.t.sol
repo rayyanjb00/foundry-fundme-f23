@@ -19,7 +19,8 @@ contract ZkSyncDevOps is Test, ZkSyncChainChecker, FoundryZkSyncChecker {
         assert(success);
     }
 
-    // You'll need `ffi=true` in your foundry.toml to run this test
+    // You'll need `ffi=true` in your foundry.toml to run this tes
+
     // // Remove the `onlyVanillaFoundry`, then run `foundryup-zksync` and then
     // // `forge test --mt testZkSyncFoundryFails --zksync`
     // // and this will fail!
